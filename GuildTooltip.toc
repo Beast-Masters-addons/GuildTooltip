@@ -1,0 +1,8 @@
+## Interface: 11302
+## Version: @project-version@
+## Author: datagutten
+## Title: GuildTooltip
+## Notes: Add guild name and rank to character tooltip
+## X-Curse-Project-ID: 350206
+
+GuildTooltip.lua
