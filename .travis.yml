@@ -1,5 +1,15 @@
 language: minimal
 
+jobs:
+  include:
+    - name: 'Classic'
+      install:
+        - export GAME_VERSION="classic"
+
+    - name: 'TBC'
+      install:
+        - export GAME_VERSION="bcc"
+
 addons:
   apt:
     packages:
@@ -11,7 +21,7 @@ before_script:
   - /home/travis/.luarocks/bin/luacheck . --no-color -q
 
 script:
-  - curl -s https://raw.githubusercontent.com/BigWigsMods/packager/master/release.sh | bash -s -- -g 1.13.6
+  - curl -s https://raw.githubusercontent.com/BigWigsMods/packager/master/release.sh | bash -s -- -g $GAME_VERSION
 
 notifications:
   email:

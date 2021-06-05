@@ -1,4 +1,5 @@
-## Interface: 11306
+## Interface-Classic: 11307
+## Interface-BCC: 20501
 ## Version: @project-version@
 ## Author: datagutten
 ## Title: GuildTooltip
