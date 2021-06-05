@@ -2,12 +2,16 @@ language: minimal
 
 jobs:
   include:
+    - name: 'Retail'
+      before_install:
+        - export GAME_VERSION="retail"
+
     - name: 'Classic'
-      install:
+      before_install:
         - export GAME_VERSION="classic"
 
     - name: 'TBC'
-      install:
+      before_install:
         - export GAME_VERSION="bcc"
 
 addons:
