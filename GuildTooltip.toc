@@ -1,4 +1,4 @@
-## Interface: 20505, 11508
+## Interface: 110207, 50503, 38000, 30300, 20505, 11508
 ## Version: @project-version@
 ## Author: datagutten
 ## Title: GuildTooltip
