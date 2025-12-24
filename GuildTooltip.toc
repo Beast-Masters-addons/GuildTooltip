@@ -7,5 +7,6 @@
 ## Notes: Add guild name and rank to character tooltip
 ## X-Curse-Project-ID: 350206
 ## X-WoWI-ID: 25905
+## X-Wago-ID: EGPX34G1
 
 GuildTooltip.lua
